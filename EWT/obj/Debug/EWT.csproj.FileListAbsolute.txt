@@ -1,0 +1,9 @@
+c:\users\skwiz\documents\visual studio 2015\Projects\EWT\EWT\bin\Debug\EWT.exe.config
+c:\users\skwiz\documents\visual studio 2015\Projects\EWT\EWT\bin\Debug\EWT.exe
+c:\users\skwiz\documents\visual studio 2015\Projects\EWT\EWT\bin\Debug\EWT.pdb
+c:\users\skwiz\documents\visual studio 2015\Projects\EWT\EWT\obj\Debug\EWT.csprojResolveAssemblyReference.cache
+c:\users\skwiz\documents\visual studio 2015\Projects\EWT\EWT\obj\Debug\EWT.exe
+c:\users\skwiz\documents\visual studio 2015\Projects\EWT\EWT\obj\Debug\EWT.pdb
+C:\Users\SKWIZ\Source\Repos\stunning-rotary-phone\EWT\bin\Debug\EWT.exe.config
+C:\Users\SKWIZ\Source\Repos\stunning-rotary-phone\EWT\obj\Debug\EWT.exe
+C:\Users\SKWIZ\Source\Repos\stunning-rotary-phone\EWT\obj\Debug\EWT.pdb

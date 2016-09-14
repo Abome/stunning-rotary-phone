@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<instrumentationManifest xsi:schemaLocation="http://schemas.microsoft.com/win/2004/08/events eventman.xsd" xmlns="http://schemas.microsoft.com/win/2004/08/events" xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:trace="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <instrumentation>
+    <events>
+      <provider name="Security" guid="{C2049A44-5BE8-4B88-A4CD-1E0EE4139F3B}" symbol="Security"  message="$(string.Security.name)"
+                resourceFileName="c:\test.dll" messageFileName="c:\test.dll">
+        <events>
+          <event symbol="EVT1000" value="1000" version="1" channel="C101" level="win:Error" template="BaseTemplate" keywords=""
+                 message="$(string.Security.EVT1000.message)"/>
+        </events>
+        <levels></levels>
+        <tasks></tasks>
+        <opcodes></opcodes>
+        <channels>
+          <channel value="101" name="C101" chid="C101" symbol="C101" type="Operational" enabled="true" message="$(string.Security.C101.name)"/>
+        </channels>
+        <keywords></keywords>
+        <templates>
+          <template tid="BaseTemplate">
+            <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+          </template>
+        </templates>
+      </provider>
+    </events>
+  </instrumentation>
+  <localization>
+    <resources culture="en-US">
+      <stringTable>
+        <string id="Security.name" value="System/Security logs"/>
+        <string id="Security.C101.name" value="Security"/>
+        <string id="Security.EVT1000.message" value="Something strange, %1"/>
+      </stringTable>
+    </resources>
+    <resources culture="ru-RU">
+      <stringTable>
+        <string id="Security.name" value="Система/Журналы ИБ"/>
+        <string id="Security.C101.name" value="Безопасность"/>
+        <string id="Security.EVT1000.message" value="Случилось странное, %1"/>
+      </stringTable>
+    </resources>
+  </localization>
+</instrumentationManifest>
